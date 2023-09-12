@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 550px;
+  height: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid gray;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding-inline-start: 0;
+}
+
+.no-style {
+  list-style-type: none;
+}
+
+#tindog-main {
+  height: 890px;
+}
+
+#dog {
+  width: 535px;
+  height: 751px;
+  background-image: url('images/dog-teddy.jpg');
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+}
+
+
+.font-semi {
+  font-weight: "semi-bold";
+}
+
+.font-large-height {
+  font-size: 32px;
+}
+
+.font-med-height {
+  font-size: 24px;
+}
+
+
+#dog>div {
+  position: relative;
+  top: 80%;
+  width: 300px;
+  height: 100;
+  left: 20px;
+  color: white;
+}
+
+#dog>.like-status {
+  position: relative;
+  top: 1;
+  width: 200px;
+  transform: rotate(330deg);
+  height: 100;
+  left: 20px;
+  color: white;
+}
+
+.menu-icon {
+  width: 30px;
+  padding: 10px;
+}
+
+.menu-icon-large {
+  width: 50px;
+}
+
+.inline-container {
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* .inline-container li {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+} */
+
+.inline-container li {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.like-status>img {
+  height: 116px;
+  width: 233px;
+}
+
+.button-shadow {
+  box-shadow: 3px 3px 3px #e78267;
+}
+
+.inline-container>#unlike-btn:hover{
+  background-color: #FFE7EF;
+}
+.inline-container>#like-btn:hover{
+  background-color: #DBFFF4;
+}
